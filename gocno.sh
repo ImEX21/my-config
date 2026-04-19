@@ -1,11 +1,6 @@
 #!/bin/bash
+set -e
 sudo pacman -Syu
-sudo pacman -Sy hyprland uwsm waybar awww fastfetch nerd-fonts pavucontrol kitty rofi
-
-cd ~/.config
-rm -rf hypr
-rm -rf kitty
-rm -rf fastfetch
-rm -rf rofi
-cd "$(dirname "$0")" && mv */ ~/.config/
-awww img k2af87zzsvze1.jpeg
+sudo pacman -S  hyprland uwsm waybar swww fastfetch ttf-jetbrains-mono-nerd pavucontrol kitty rofi
+cp -r hypr kitty fastfetch rofi ~/.config/
+swww img k2af87zzsvze1.jpeg
