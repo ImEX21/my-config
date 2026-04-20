@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 sudo pacman -Syu
-sudo pacman -S  hyprland uwsm waybar swww fastfetch ttf-jetbrains-mono-nerd pavucontrol kitty rofi pipewire pipewire-pulse pipewire-jack pipewire-audio wireplumber pipewire-alsa
+sudo pacman -S  hyprland uwsm waybar swww fastfetch ttf-jetbrains-mono-nerd pavucontrol kitty rofi pipewire pipewire-pulse pipewire-jack pipewire-audio wireplumber pipewire-alsa hyprshot nerd-fonts
 rm -rf ~/.config/hypr
 rm -rf ~/.config/fastfetch
 rm -rf ~/.config/rofi
