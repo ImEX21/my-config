@@ -1,5 +1,7 @@
 # my-config
 
+**(ALL SCRIPTS NEED OPEN IN TERMINAL)**
+
 **dotfiles for hyprland and automates scripts to install it.**
 
 **-How to install?-**
