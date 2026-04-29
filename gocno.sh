@@ -11,8 +11,6 @@ rm -rf ~/.config/fastfetch
 rm -rf ~/.config/rofi
 rm -rf ~/.config/kitty
 cp -r hypr kitty fastfetch rofi ~/.config/
-awww-daemon
-awww img k2af87zzsvze1.jpeg
 echo "Установка завершена, рестарт системы."
 sleep 2
 sudo reboot
