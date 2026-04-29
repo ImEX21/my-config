@@ -5,12 +5,13 @@ sudo pacman -Syu
 sudo pacman -S --noconfirm hyprland uwsm waybar awww fastfetch \
 ttf-jetbrains-mono-nerd pavucontrol kitty rofi \
 pipewire pipewire-pulse pipewire-jack \
-wireplumber pipewire-alsa hyprshot nerd-fonts swaync
+wireplumber pipewire-alsa hyprshot nerd-fonts swaync dolphin
 rm -rf ~/.config/hypr
 rm -rf ~/.config/fastfetch
 rm -rf ~/.config/rofi
 rm -rf ~/.config/kitty
 cp -r hypr kitty fastfetch rofi ~/.config/
+awww-daemon
 awww img k2af87zzsvze1.jpeg
 echo "Установка завершена, рестарт системы."
 sleep 2
