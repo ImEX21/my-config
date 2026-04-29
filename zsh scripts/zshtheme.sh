@@ -7,5 +7,5 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 cd "$(dirname "$0")"
 rm -rf ~/.zshrc
-cp -r .zshrc ~
+mv .zshrc ~
 echo "good! Restart please. "
